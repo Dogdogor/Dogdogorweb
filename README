@@ -1,0 +1,80 @@
+# DogDogOr - Módulo Registro de Clientes
+
+**Aprendiz:** Stephany Toro  
+**Evidencia:** GA7-220501096-AA3-EV01  
+
+---
+
+## 📌 Descripción
+
+Este proyecto corresponde al desarrollo del módulo de registro de clientes del sistema DogDogOr, implementado como una aplicación web utilizando Java, JSP y Servlets.
+
+El módulo permite capturar la información de los clientes desde un formulario web, procesarla en el servidor y almacenarla en una base de datos MySQL.
+
+---
+
+## ⚙️ Funcionalidad
+
+El sistema permite:
+
+- Registrar clientes mediante un formulario web (registro.jsp)
+- Procesar los datos con un Servlet (ClienteServlet.java)
+- Guardar la información en MySQL
+- Mostrar un mensaje de confirmación (resultado.jsp)
+
+---
+
+## 🏗️ Arquitectura
+
+El proyecto está basado en el patrón MVC:
+
+- **Modelo:** Cliente.java  
+- **Acceso a datos:** ClienteDAO.java  
+- **Controlador:** ClienteServlet.java  
+- **Vista:** JSP (index.jsp, registro.jsp, resultado.jsp)  
+
+---
+
+## 💻 Tecnologías utilizadas
+
+- Java  
+- JSP / Servlets  
+- MySQL  
+- NetBeans  
+- GitHub  
+
+---
+
+## 🗄️ Base de datos
+
+Base de datos:
+
+dogdogor
+
+Tabla principal:
+
+cliente
+
+---
+
+## 🚀 Ejecución
+
+1. Ejecutar el proyecto en NetBeans
+2. Abrir en el navegador:
+   http://localhost:8080/DogDogOrWeb/registro.jsp
+3. Ingresar los datos del cliente
+4. Verificar el registro exitoso
+
+---
+
+## 🔗 Repositorio
+
+https://github.com/Dogdogor/Dogdogorweb
+
+---
+
+## 📁 Archivos incluidos
+
+- Código fuente del proyecto
+- Archivo README.md
+- Script de base de datos (basedatos.sql)
