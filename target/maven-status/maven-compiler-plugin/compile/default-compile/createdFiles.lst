@@ -1,0 +1,5 @@
+com\mycompany\dogdogorweb\JakartaRestConfiguration.class
+com\mycompany\dogdogor\Cliente.class
+com\mycompany\dogdogorweb\resources\JakartaEE10Resource.class
+com\mycompany\dogdogor\ClienteDAO.class
+com\mycompany\dogdogorweb\ClienteServlet.class
